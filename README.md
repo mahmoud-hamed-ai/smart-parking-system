@@ -83,9 +83,17 @@ LCD SCL	A5
 
 📸 Project Gallery
 
-The project images are available in the repository.
+### Project Images
 
-<!-- Add your image filenames below after checking their exact names -->
+![Smart Parking System - Image 1](parking2.jpeg)
+![Smart Parking System - Image 2](parking3.jpeg)
+![Smart Parking System - Image 3](parking4.jpeg)
+![Smart Parking System - Image 4](parking5.jpeg)
+![Smart Parking System - Image 5](parking6.jpeg)
+
+## Project Demonstration
+
+[▶ Watch Smart Parking System Demo](parking1.mp4)
 
 🎯 Project Goal
 
