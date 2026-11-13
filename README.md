@@ -49,8 +49,8 @@ Red LED	D4
 Buzzer	D5
 Echo Pin	D7
 Trig Pin	D8
-Bluetooth Arduino RX	D10
-Bluetooth Arduino TX	D11
+Bluetooth RX	D10
+Bluetooth TX	D11
 LCD SDA	A4
 LCD SCL	A5
 
