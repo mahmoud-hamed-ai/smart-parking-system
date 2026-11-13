@@ -1,40 +1,86 @@
-# 🚗 Smart Parking Assistant System (P1)
+🚗 Smart Parking System
 
-An Arduino-based smart parking assistant designed to help drivers park safely by measuring real-time distances, providing visual and audio alerts, and transmitting live sensor readings via Bluetooth.
+<image src="parking1.mp4" alt="Smart Parking System video" />
 
----
+Successfully Built & Tested ✅
 
-## 🛠️ Hardware & Components Used
-* **Microcontroller:** Arduino Uno
-* **Distance Measurement:** Ultrasonic Sensor (HC-SR04)
-* **Display:** 16x2 LCD Screen (I2C / Standard)
-* **Wireless Communication:** Bluetooth Module (HC-05 / HC-06)
-* **Alerts & Indicators:** Buzzer & Status LEDs (Green, Yellow, Red)
-* **Simulation:** Tested and verified on Tinkercad
+An Arduino-based Smart Parking System designed to help drivers measure the distance between their vehicle and nearby objects while parking.
 
----
+🚀 Project Overview
 
-## ⚙️ How It Works
-1. **Distance Detection:** The ultrasonic sensor continuously calculates the distance between the vehicle and nearby obstacles.
-2. **Visual & Audio Feedback:** 
-   * **Safe Zone:** Green LED lights up.
-   * **Warning Zone:** Yellow LED lights up with intermittent buzzer beeps.
-   * **Danger Zone:** Red LED lights up with a continuous alarm sound.
-3. **Real-Time Monitoring:** Distance values are displayed live on the **LCD screen** and sent wirelessly to a mobile **Bluetooth Terminal** app.
+This project uses an ultrasonic sensor to measure distance and provides visual and audio alerts to help the driver park more safely.
 
----
+It also uses an LCD display to show distance information and a Bluetooth module to send data to a mobile phone.
 
-## 🚀 Getting Started
-1. Clone or download this repository.
-2. Open the `.ino` code file using **Arduino IDE** (or import the circuit into **Tinkercad**).
-3. Connect the components according to the pin definitions in the code.
-4. Upload the sketch to your Arduino board and pair your phone with the Bluetooth module.
+✨ Features
 
----
+* Real-time distance measurement.
+* Ultrasonic obstacle detection.
+* LCD display for distance information.
+* LED indicators for different distance levels.
+* Buzzer warning system.
+* Bluetooth communication with a mobile phone.
 
-## 👥 Project Owner
-**Team:** MIND CRAFT  
-**Project Code:** P1  
-**Institution:** Faculty of Artificial Intelligence – KNU  
+🛠️ Components Used
 
-* **Mahmoud Mohamed Ahmed Hamed Ali**
+* Arduino Uno
+* HC-SR04 Ultrasonic Sensor
+* 16x2 I2C LCD Display
+* HC-05 / HC-06 Bluetooth Module
+* Green LED
+* Yellow LED
+* Red LED
+* Buzzer
+* Breadboard
+* Jumper Wires
+* Resistors
+
+🔌 Pin Connections
+
+Component	Arduino Pin
+Green LED	D2
+Yellow LED	D3
+Red LED	D4
+Buzzer	D5
+Echo Pin	D7
+Trig Pin	D8
+Bluetooth RX/TX	D10 / D11
+LCD SDA	A4
+LCD SCL	A5
+
+⚙️ How It Works
+
+1. The ultrasonic sensor measures the distance to the nearest object.
+2. The Arduino processes the distance readings.
+3. The LCD displays the measured distance.
+4. LEDs indicate the distance level.
+5. The buzzer provides audio warnings.
+6. Bluetooth sends distance information to a connected mobile phone.
+
+💻 Programming
+
+* Language: C++
+* Platform: Arduino IDE
+* Communication: I2C and SoftwareSerial
+
+📁 Project Files
+
+* Project_Parking_2.ino – Arduino source code.
+* README.md – Project documentation.
+* Project images and video – Photos and demonstration of the project.
+
+🎯 Project Goal
+
+To develop a simple and affordable smart parking assistant using Arduino and electronic components.
+
+👨‍💻 Developer
+
+Mahmoud Hamed
+
+AI & Robotics Enthusiast | Python Learner
+
+GitHub Profile
+
+⸻
+
+Learning, building, and creating intelligent solutions.
