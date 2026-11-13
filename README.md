@@ -1,23 +1,28 @@
 🚗 Smart Parking System
 
-<image src="parking1.mp4" alt="Smart Parking System video" />
+<p align="center">
+  <b>Arduino-Based Smart Parking Assistant</b>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Completed-success" alt="Project Status">
+  <img src="https://img.shields.io/badge/Platform-Arduino-blue" alt="Platform">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-orange" alt="Language">
+</p>
 
-Successfully Built & Tested ✅
+📌 Project Overview
 
-An Arduino-based Smart Parking System designed to help drivers measure the distance between their vehicle and nearby objects while parking.
+The Smart Parking System is an Arduino-based project designed to help drivers measure the distance between their vehicle and nearby objects while parking.
 
-🚀 Project Overview
+The system uses an ultrasonic sensor to detect obstacles and provides visual and audio alerts. It also displays distance information on an LCD screen and sends data to a mobile phone through Bluetooth.
 
-This project uses an ultrasonic sensor to measure distance and provides visual and audio alerts to help the driver park more safely.
-
-It also uses an LCD display to show distance information and a Bluetooth module to send data to a mobile phone.
+Project Status: Successfully Built & Tested.
 
 ✨ Features
 
 * Real-time distance measurement.
 * Ultrasonic obstacle detection.
 * LCD display for distance information.
-* LED indicators for different distance levels.
+* Three LED indicators for different distance levels.
 * Buzzer warning system.
 * Bluetooth communication with a mobile phone.
 
@@ -44,34 +49,47 @@ Red LED	D4
 Buzzer	D5
 Echo Pin	D7
 Trig Pin	D8
-Bluetooth RX/TX	D10 / D11
+Bluetooth Arduino RX	D10
+Bluetooth Arduino TX	D11
 LCD SDA	A4
 LCD SCL	A5
 
 ⚙️ How It Works
 
-1. The ultrasonic sensor measures the distance to the nearest object.
-2. The Arduino processes the distance readings.
+1. The HC-SR04 ultrasonic sensor measures the distance to the nearest object.
+2. The Arduino receives and processes the distance readings.
 3. The LCD displays the measured distance.
-4. LEDs indicate the distance level.
-5. The buzzer provides audio warnings.
+4. The LEDs indicate the distance level.
+5. The buzzer provides audio warnings when an object gets close.
 6. Bluetooth sends distance information to a connected mobile phone.
 
-💻 Programming
+💻 Programming & Tools
 
-* Language: C++
-* Platform: Arduino IDE
-* Communication: I2C and SoftwareSerial
+* Programming Language: C++
+* Development Environment: Arduino IDE
+* Microcontroller: Arduino Uno
+* Communication Protocols: I2C and SoftwareSerial
 
 📁 Project Files
 
-* Project_Parking_2.ino – Arduino source code.
-* README.md – Project documentation.
-* Project images and video – Photos and demonstration of the project.
+* Project_Parking_2.ino — Arduino source code.
+* README.md — Project documentation.
+* parking1.mp4 — Project demonstration video.
+* Project images — Photos of the completed hardware.
+
+🎥 Project Demonstration
+
+▶ Watch Smart Parking System Demo
+
+📸 Project Gallery
+
+The project images are available in the repository.
+
+<!-- Add your image filenames below after checking their exact names -->
 
 🎯 Project Goal
 
-To develop a simple and affordable smart parking assistant using Arduino and electronic components.
+To develop an affordable and practical parking assistance system using Arduino, sensors, and wireless communication.
 
 👨‍💻 Developer
 
@@ -79,8 +97,9 @@ Mahmoud Hamed
 
 AI & Robotics Enthusiast | Python Learner
 
-GitHub Profile
+* GitHub: mahmoud-hamed-ai
+* Project Repository: Smart Parking System
 
 ⸻
 
-Learning, building, and creating intelligent solutions.
+Always learning, building, and improving.
