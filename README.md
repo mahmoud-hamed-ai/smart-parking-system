@@ -91,9 +91,11 @@ LCD SCL	A5
 ![Smart Parking System - Image 4](parking5.jpeg)
 ![Smart Parking System - Image 5](parking6.jpeg)
 
+
+
 ## Project Demonstration
 
-[▶ Watch Smart Parking System Demo](parking1.mp4)
+https://github.com/user-attachments/assets/86c59c6d-9eea-46ae-92c0-344606ccb702
 
 🎯 Project Goal
 
